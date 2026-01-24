@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>IoT Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Socket.io -->
+    <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+
+    <!-- Firebase SDKs -->
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+
+
+    <!-- Firebase Config (Replace values!) -->
+    <script>
+      const firebaseConfig = {
+        apiKey: "AIzaSyBfa6Twf4akMLWsE8Oxnxyq_aBBx8zoqRc",
+        authDomain: "sheat-73b3d.firebaseapp.com",
+        projectId: "sheat-73b3d",
+        storageBucket: "sheat-73b3d.firebasestorage.app",
+        messagingSenderId: "712756464958",
+        appId: "1:712756464958:web:8389c7e00de5991ba5b06f",
+        databaseURL:
+          "https://sheat-73b3d-default-rtdb.asia-southeast1.firebasedatabase.app",
+      };
+      firebase.initializeApp(firebaseConfig);
+    </script>
+  </head>
+
+  <body>
+    <h1>IoT Dashboard</h1>
+
+    <!-- AUTH BOX -->
+    <div id="authBox">
+      <h2>Login / Signup</h2>
+
+      <input id="email" type="email" placeholder="Email" />
+      <input id="password" type="password" placeholder="Password" />
+
+      <button onclick="signup()">Sign Up</button>
+      <button onclick="login()">Log In</button>
+
+      <p id="authMsg"></p>
+    </div>
+
+    <!-- DEVICE BOX -->
+    <div id="deviceBox" style="display: none">
+      <h2>Claim Device</h2>
+
+      <input id="deviceId" placeholder="Enter Device ID" />
+      <button onclick="claimDevice()">Claim Device</button>
+
+      <h2 id="liveTitle"></h2>
+
+<div id="data">
+  <p>Temperature: <span id="temp">--</span> °C</p>
+  <p>Humidity: <span id="hum">--</span> %</p>
+  <p>H₂ Gas: <span id="h2">--</span> ppm</p>
+  <p>CO Gas: <span id="co">--</span> ppm</p>
+  <p>CH₄ Gas: <span id="ch4">--</span> ppm</span></p>
+  <p>AQI: <span id="aqi">--</span></p>
+</div>
+
+
+    <script src="app.js"></script>
+  </body>
+</html>

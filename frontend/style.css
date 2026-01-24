@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#authBox, #deviceBox {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background: #f4f4f4;
+  border-radius: 10px;
+}
+
+#data p {
+  background: #eef2f7;
+  padding: 10px;
+  border-radius: 6px;
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+}
+
+button {
+  width: 49%;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+#data p {
+  background: #eee;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 10px 0;
+}
