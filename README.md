@@ -1,17 +1,113 @@
-Ensure that the device is turned on before experimenting....
-Here the frontend is the demo website we have made only for the testing purpose and for the frontend, we have created a mobile app named Nischay.apk using React-Native.
+# 🌱 Smart Indoor Farming Monitoring System
 
-The programming language used for the Backend Development is Node.js and is deployed on Render.
+**Team Nischay**
 
-The given mp4 video is the demo video of the working prototype of the Smart Indoor Farming Monitoring System.
+An **app-based IoT monitoring system** designed for indoor farming environments.
+The system allows users to monitor and manage farming conditions in real time using a mobile application connected to IoT devices.
 
-The Nischay.apk download link file consist of the Google Drive link to download the Nischay App.
-The login_id and password to be used is-
-Login ID/Email- baranwaltanmay16@gmail.com
-Password - 123456
-the device to be registered in the app interface is - node1
-Ensure to fill only these details to complete access the app for now.
+---
 
-The Firmware Code consist of the microcontroller code programmed in C language.
+## 🚀 Project Overview
 
-The database stored is of Google Firebase.
+This project focuses on **real-time monitoring and management of indoor farming conditions** through a mobile application.
+Users can log in, claim IoT devices, and view live sensor data remotely, making the system practical and scalable for controlled farming setups.
+
+---
+
+## 📱 Application Features
+
+* Secure user authentication (email & password)
+* Device claiming mechanism (node-based devices)
+* Real-time monitoring of indoor farming parameters
+* IoT device integration with mobile application
+* Cloud-based data handling
+* Simple and user-friendly mobile interface
+
+---
+
+## 🧠 System Architecture (High Level)
+
+1. IoT device (Node-based) collects environmental data
+2. Data is sent to the backend/cloud service
+3. Mobile application fetches and displays real-time data
+4. Users can claim and monitor specific devices via the app
+
+---
+
+## 🛠️ Technologies Used
+
+* Android Mobile Application
+* IoT (Node-based device)
+* Cloud / Backend Services
+* Environmental Sensors
+* API-based communication
+
+---
+
+## 🎥 Video Demo
+
+* A **complete MP4 video demo** of the application and system workflow is uploaded **directly on this GitHub repository**
+* The video demonstrates:
+
+  * App login flow
+  * Device claiming
+  * Live data monitoring
+  * Overall system functionality
+
+📌 *This allows reviewers to understand the project without installing the app.*
+
+---
+
+## 📦 APK & Demo Access
+
+* The **Android APK** is available via Google Drive
+* The application can be installed directly on Android devices for testing
+
+> 🔐 **Demo credentials and device access are available upon request for evaluation purposes.**
+
+---
+
+## 🔑 Device Management
+
+* Each IoT unit is assigned a unique **Node ID**
+* Users can claim a device after successful login
+* Once claimed, real-time data from the device becomes visible in the app
+
+---
+
+## 👥 Team
+
+**Team Nischay**
+A collaborative team project focused on applying IoT and software engineering concepts to solve real-world agricultural problems.
+
+---
+
+## 📌 Use Cases
+
+* Indoor farming & hydroponics
+* Controlled environment agriculture
+* Smart agriculture demonstrations
+* Educational and research-based farming systems
+
+---
+
+## 📄 Notes
+
+* This project is developed for educational and experimental purposes
+* Security best practices are followed by not exposing sensitive credentials publicly
+
+---
+
+## ⭐ Why This Project Stands Out
+
+* Integrates **IoT + Mobile App + Cloud**
+* Solves a **real-world monitoring problem**
+* Includes both **APK and video demonstration**
+* Focuses on system design and scalability
+
+---
+
+## 📬 Contact
+
+For demo access or additional project details, feel free to reach out at baranwaltanmay16@gmail.com
+
