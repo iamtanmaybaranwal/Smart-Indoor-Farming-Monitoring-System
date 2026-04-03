@@ -14,6 +14,20 @@ Users can log in, claim IoT devices, and view live sensor data remotely, making 
 
 ---
 
+## 🎥 Video Demo
+
+* A **complete MP4 video demo** of the application and system workflow is uploaded **directly on this GitHub repository**
+* The video demonstrates:
+
+  * App login flow
+  * Device claiming
+  * Live data monitoring
+  * Overall system functionality
+
+📌 *This allows reviewers to understand the project without installing the app.*
+
+---
+
 ## 📱 Application Features
 
 * Secure user authentication (email & password)
@@ -41,20 +55,6 @@ Users can log in, claim IoT devices, and view live sensor data remotely, making 
 * Cloud / Backend Services
 * Environmental Sensors
 * API-based communication
-
----
-
-## 🎥 Video Demo
-
-* A **complete MP4 video demo** of the application and system workflow is uploaded **directly on this GitHub repository**
-* The video demonstrates:
-
-  * App login flow
-  * Device claiming
-  * Live data monitoring
-  * Overall system functionality
-
-📌 *This allows reviewers to understand the project without installing the app.*
 
 ---
 
