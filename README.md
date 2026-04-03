@@ -9,7 +9,7 @@ The system allows users to monitor and manage farming conditions in real time us
 
 ## 🚀 Project Overview
 
-This project was made for GDG Pune hackathon and this project won the 6th rank among 150 teams from India.
+**This project was made for GDG Pune hackathon and this project won the 6th rank among 150 teams from India.**
 This project focuses on **real-time monitoring and management of indoor farming conditions** through a mobile application.
 Users can log in, claim IoT devices, and view live sensor data remotely, making the system practical and scalable for controlled farming setups.
 
